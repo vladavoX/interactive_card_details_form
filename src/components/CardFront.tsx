@@ -15,7 +15,7 @@ const CardFront = ({ cardHolder, cardNumber, cardMonth, cardYear }: Props) => {
       <div className='w-fit font-medium text-2xl text-gray-50 tracking-[0.24em] mt-16 mr-[-0.24em]'>
         <p>{cardNumber}</p>
       </div>
-      <div className='flex w-full justify-between px-8 mt-5 text-gray-50 text-sm tracking-widest'>
+      <div className='flex w-full justify-between px-8 mt-5 text-gray-50 text-sm tracking-widest uppercase'>
         <p>{cardHolder}</p>
         <p>
           {cardMonth}/{cardYear}

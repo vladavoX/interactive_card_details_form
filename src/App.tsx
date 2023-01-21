@@ -1,7 +1,11 @@
+import LeftSide from './components/LeftSide'
+import RIghtSide from './components/RIghtSide'
+
 function App() {
   return (
-    <div>
-      <h1 className='text-green-900'>Hello World</h1>
+    <div className='bg-white min-h-screen flex justify-evenly items-center'>
+      <LeftSide />
+      <RIghtSide />
     </div>
   )
 }

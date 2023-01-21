@@ -1,7 +1,11 @@
+import CardBack from './CardBack'
+import CardFront from './CardFront'
+
 const LeftSide = () => {
   return (
-    <div className='h-screen w-1/2 bg-gradient-to-br from-violet-900 via-red-700 to-purple-400'>
-      LeftSide
+    <div className='z-50 relative h-screen w-1/2 bg-gradient-to-br from-slate-900 to-slate-700'>
+      <CardFront />
+      <CardBack />
     </div>
   )
 }

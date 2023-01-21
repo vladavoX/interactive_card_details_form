@@ -18,8 +18,24 @@ const Form = ({ setCardDetails }: Props) => {
     }))
   }
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setCardDetails((prev) => ({
+      ...prev,
+      cardHolder: 'Jane Appleseed',
+      cardNumber: '0000000000000000',
+      cardMonth: '00',
+      cardYear: '00',
+      cvc: '000',
+    }))
+    e.currentTarget.reset()
+  }
+
   return (
-    <form className='w-96 flex flex-col gap-8'>
+    <form
+      className='w-96 flex flex-col gap-8'
+      onSubmit={handleSubmit}
+    >
       <div className='flex flex-col gap-2'>
         <label
           htmlFor='name'
@@ -34,7 +50,6 @@ const Form = ({ setCardDetails }: Props) => {
           className='border-2 border-gray-100 rounded-md px-2 py-2'
           required
           onChange={handleChange}
-          // must be letters only and spaces
           pattern='[a-zA-Z ]+'
         />
       </div>

@@ -11,5 +11,8 @@
 
 When done setting up the project, input card details and see magic happen. <br>
 
+![alt text](https://github.com/vladavoX/interactive_card_details_form/blob/main/design/image1.png?raw=true)
+![alt text](https://github.com/vladavoX/interactive_card_details_form/blob/main/design/image2.png?raw=true)
+
 ### Previous Project 01 ➡ https://github.com/vladavoX/interactive_card_details_form <br />
 ### Next Project 03 ➡ Soon!

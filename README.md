@@ -1,7 +1,7 @@
 ### #50ProjectsChallenge
 
 ### Previous Project 01 ➡ https://github.com/vladavoX/interactive_card_details_form <br />
-### Next Project 03 ➡ Soon!
+### Next Project 03 ➡ https://github.com/vladavoX/tic_tac_toe_game
 
 # Project 02: Interactive Card Details Form
 

@@ -1,6 +1,6 @@
 ### #50ProjectsChallenge
 
-### Previous Project 01 ➡ https://github.com/vladavoX/interactive_card_details_form <br />
+### Previous Project 01 ➡ https://github.com/vladavoX/password_generator_app<br />
 ### Next Project 03 ➡ https://github.com/vladavoX/tic_tac_toe_game
 
 # Project 02: Interactive Card Details Form
